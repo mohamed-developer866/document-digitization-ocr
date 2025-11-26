@@ -1,38 +1,53 @@
-Document Digitization & OCR System
+# Document Digitization Mini Project
 
-This project converts physical documents into digital text using OCR and creates a searchable index.
+This is a simple Python project that demonstrates how a physical document image can be converted into digital text using OCR (Optical Character Recognition). The project also stores the extracted text and metadata in an organized format.
 
-Features
+---
 
-Extract text using Tesseract OCR
+## Project Structure
+```
+ai-doc-digitization
+ ├── main.py
+ ├── utils/
+ │    ├── ocr.py
+ │    ├── cleaner.py
+ │    └── storage.py
+ ├── samples/
+ │    └── sample_doc.jpg
+ └── README.md
+```
 
-Save extracted text to files
+---
 
-Store original files
+## Features
+- Extract text from images using OCR  
+- Basic text cleaning  
+- Save output as `.txt` and `.json`  
+- Simple folder structure  
+- Beginner-friendly code  
 
-Generate Excel index for searching
+---
 
-Industry-level workflow
-
-Tech Stack
-
-Python
-
-OpenCV
-
-Tesseract OCR
-
-Pandas
-
-How to Run
-
-Install requirements:
-
+## How to Run
+```bash
 pip install -r requirements.txt
-
-
-Add your scanned document as sample_document.jpg.
-
-Run:
-
 python main.py
+```
+
+---
+
+## What This Project Shows
+This small project shows that you understand:
+- OCR processing  
+- Document-to-digital workflow  
+- Python basics  
+- File handling  
+- Organizing scanned data  
+
+Useful for internships in document scanning and digitization companies.
+
+---
+
+## Developer
+**Mohamed Apsar**  
+AIDS Student  
